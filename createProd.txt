@@ -1,0 +1,48 @@
+    createProduct({
+        name: 'Articulo6',
+        // regular_price: calculatePrice(1806.58),
+        regular_price: calculatePrice(1000),
+        // sale_price: ,
+        sku: 'R2D6',
+        description: 'Articulo 6',
+        stock_quantity: 10,
+        weight: '0.18',
+        downloads: [{name: 'articulo.pdf', file: "https://4820964.app.netsuite.com/core/media/media.nl?id=59495&c=4820964&h=xqUw4tAMmQPCegaIrlzUo2hWVgNv3FL1VpFaKq3EXEaIEXqt&_xt=.pdf"}],
+        dimensions: {length: '12.8', width: '6.7', height: '7.7'},
+        categories: [
+            {
+                id: 41
+            }
+        ],
+        images: [
+            {
+                src: 'https://sudsolutions.mx/images/img/Cableado10001.jpg'
+            }
+        ]
+    });
+    ////
+        createProduct({
+        name: 'KIT 4X4 UNIARCH IP EXTERIOR BULLET 2MP 1080P INCLUYE 1 NVR POE 4PTOS + 4 CAM BULLET IP 2MP 2.8MM / CABLES PREPONCHADOS DE 18MTS',
+        // regular_price: calculatePrice(1806.58),
+        regular_price: calculatePrice(3069.67),
+        // sale_price: ,
+        sku: 'KIT  1x NVR-104E2-P4 + 4x IPC-B122-APF28 + 4x ENS-IP18CAT6',
+        description: 'KIT 4X4 UNIARCH IP EXTERIOR BULLET 2MP  Uniarch llega al mercado de vigilancia de nivel de entrada con productos IP completamente nuevos que poseen un rendimiento incre&iacute;ble de alto costo y caracter&iacute;sticas avanzadas.  Uniarch incluye c&aacute;maras IP y grabadores de video que es la opci&oacute;n &oacute;ptima para las aplicaciones de peque&ntilde;as y medianas empresas, como tiendas minoristas residenciales. Son capaces de proporcionar Ultra 265, un ancho de banda m&aacute;ximo del 95% y reducci&oacute;n de almacenamiento, un amplio rango din&aacute;mico para garantizar una imagen excelente con una diferencia significativa de iluminaci&oacute;n de primer plano y de fondo.  Caracteristicas:  NVR-104E2-P4:    Soporta formatos de video Ultra 265 / H.265 / H.264  Entrada de 4 canales  Plug &amp; Play con 4/8 interfaces de red PoE independientes  C&aacute;maras IP de terceros compatibles con la conformidad con ONVIF: perfil S, perfil G, perfil T  Admite HDMI de 1 canal, VGA de 1 canal  Salida simult&aacute;nea HDMI y VGA  Grabaci&oacute;n con resoluci&oacute;n de hasta 8MP  Capacidad de 1 disco duro SATA de hasta 8 TB    C&aacute;mara IPC-B122-APF28:    Resoluci&oacute;n: 2MP.  Protecci&oacute;n: IP67  Microfono integrado.  IRs inteligentes hasta 30 m.  Compresi&oacute;n Ultra 265, H.265, H.264, MJPEG.',
+        manage_stock: true,
+        stock_quantity: 0,
+        weight: '4.96',
+        // downloads: [{name: 'articulo.pdf', file: "https://4820964.app.netsuite.com/core/media/media.nl?id=59495&c=4820964&h=xqUw4tAMmQPCegaIrlzUo2hWVgNv3FL1VpFaKq3EXEaIEXqt&_xt=.pdf"}],
+        dimensions: {length: '0', width: '0', height: '0'},
+        categories: [
+            {
+                id: 41
+            }
+        ],
+        images: [
+            {
+                // src: 'https://sudsolutions.mx/images/img/Cableado10001.jpg'
+                // src: 'https://sudsolutions.mx/images/img/Videovigilancia15044.jpg'
+                src: 'https://sudsolutions.mx/images/img/Videovigilancia15047.jpg'
+            }
+        ]
+    });
