@@ -1,7 +1,6 @@
 import express from 'express';
-
 const app = express();
-
+import ordersRoutes from './routes/orders.routes.js';
 const port = 3000;
 
 app.get('/lol', (req, res)=>{
@@ -10,7 +9,8 @@ app.get('/lol', (req, res)=>{
 app.use(express.static('img'));
 // app.use('/img')
 
-// app.use();
+app.use('/order', ordersRoutes);
+
 app.listen(port, ()=>{
     console.log(`App Connected Port: 3000`);
 })
